@@ -10,10 +10,11 @@ Dashboard about the register of natural disaster decrees (CatNat) by commune.
 ## Data
 
 - Title: Arrêtés de catastrophe naturelle par commune (GASPAR database)
-- Producer: French Ministry of Ecological Transition
-- Source: https://www.data.gouv.fr/datasets/arretes-de-catastrophe-naturelle-par-commune/
+- Publisher on data.gouv.fr: TACCT (data from the GASPAR database of the French Ministry of Ecological Transition)
+- Dataset link: https://www.data.gouv.fr/datasets/arretes-de-catastrophe-naturelle-par-commune
 - File: `catnat.csv` (about 50 MB, 260,000 rows, `;` separator, no header)
-- Licence: to check on the dataset page (should be the Licence Ouverte)
+- Version used: last update on data.gouv.fr on 20 July 2026 (updated once a year)
+- Licence: Licence Ouverte / Open Licence version 2.0 (code `lov2` in the data.gouv.fr API, checked on 23 October 2026). The code of this project is separate from the data.
 - Background map: departments GeoJSON (`gregoiredavid/france-geojson`), downloaded automatically
 
 The raw file is not in the zip: it is downloaded the first time the app runs, into the `data/` folder.

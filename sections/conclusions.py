@@ -29,4 +29,5 @@ def render(f, q):
 - look at the effect of the rule change on clay (all its decrees were taken in {rga_year}).
 """
     )
-    st.caption(f"Source: data.gouv.fr, Arrêtés de catastrophe naturelle par commune. Last decree in the file: {q['last_arrete_year']}.")
+    st.caption("Source: [Arrêtés de catastrophe naturelle par commune](https://www.data.gouv.fr/datasets/arretes-de-catastrophe-naturelle-par-commune), "
+               f"data.gouv.fr, Licence Ouverte 2.0. Last decree in the file: {q['last_arrete_year']}.")
