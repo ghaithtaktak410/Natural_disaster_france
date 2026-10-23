@@ -1,0 +1,37 @@
+{
+  "random_seed": 42,
+  "dataset_page": "https://www.data.gouv.fr/datasets/arretes-de-catastrophe-naturelle-par-commune/",
+  "dataset_api": "https://www.data.gouv.fr/api/1/datasets/arretes-de-catastrophe-naturelle-par-commune/",
+  "fallback_csv_url": "https://static.data.gouv.fr/resources/arretes-de-catastrophe-naturelle-par-commune/20260720-124514/catnat.csv",
+  "geojson_url": "https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/departements-version-simplifiee.geojson",
+  "columns": ["id","code_commune","commune","code_epci","epci","code_dep","dep","code_reg","ept","petr","code_pnr","pnr","type","debut","fin","arrete"],
+  "reliability_lag_years": 2,
+  "long_event_days": 365,
+  "region_names": {
+    "01": "Guadeloupe", "02": "Martinique", "03": "French Guiana", "04": "La Réunion", "06": "Mayotte",
+    "11": "Île-de-France", "24": "Centre-Val de Loire", "27": "Bourgogne-Franche-Comté",
+    "28": "Normandy", "32": "Hauts-de-France", "44": "Grand Est", "52": "Pays de la Loire",
+    "53": "Brittany", "75": "Nouvelle-Aquitaine", "76": "Occitanie",
+    "84": "Auvergne-Rhône-Alpes", "93": "Provence-Alpes-Côte d'Azur", "94": "Corsica"
+  },
+  "peril_names": {
+    "Inondations": "Floods",
+    "Sécheresse": "Drought",
+    "Mouvements de terrain": "Ground movements",
+    "Cyclones / Tempêtes": "Cyclones / Storms",
+    "Grêle / neige": "Hail / snow",
+    "Retrait-gonflement des argiles": "Clay shrink-swell",
+    "Avalanche": "Avalanche",
+    "Divers": "Other"
+  },
+  "peril_colors": {
+    "Floods": "#0072B2",
+    "Drought": "#E69F00",
+    "Ground movements": "#8C564B",
+    "Cyclones / Storms": "#56B4E9",
+    "Hail / snow": "#7F7F7F",
+    "Clay shrink-swell": "#D55E00",
+    "Avalanche": "#CC79A7",
+    "Other": "#F0E442"
+  }
+}
