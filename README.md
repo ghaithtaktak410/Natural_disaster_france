@@ -3,9 +3,9 @@
 Individual Streamlit project - EFREI Paris, ING2 (BI).
 Dashboard about the register of natural disaster decrees (CatNat) by commune.
 
-- Live app: `<Streamlit Cloud URL to add>`
-- Demo video (2 to 4 min): `<link to add>`
-- GitHub repository: `<link to add>`
+- Live app: https://naturaldisasterfrance-p538qmksbdekehzehkbtfu.streamlit.app/
+- Demo video (2 to 4 min): https://drive.google.com/file/d/1OmwupzaSTBW8osDAC4wyL6sTRJUR1edl/view?usp=sharing
+- GitHub repository: https://github.com/ghaithtaktak410/Natural_disaster_france
 
 ## Data
 
